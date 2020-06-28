@@ -22,7 +22,7 @@
 
 @font-face {
     font-family: 'Calibre Semibold';
-    src: url('/fonts/calibre/calibre-test-semibold.woff') format('woff');
+    src: url('fonts/calibre/calibre-test-semibold.woff') format('woff');
 }
 
 @font-face {

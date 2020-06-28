@@ -10,14 +10,15 @@
     }
 }
 
+/* 
 @font-face {
     font-family: 'Tiempos Headline';
-    src: url('/fonts/tiempos-headline/tiempos-headline-test-bold.woff') format('woff');
-}
+    src: url('fonts/tiempos-headline/tiempos-headline-test-bold.woff') format('woff');
+} */
 
 @font-face {
     font-family: 'Calibre Bold';
-    src: url('/fonts/calibre/calibre-test-bold.woff') format('woff');
+    src: url('fonts/calibre/calibre-test-bold.woff') format('woff');
 }
 
 @font-face {
@@ -27,65 +28,12 @@
 
 @font-face {
     font-family: 'Calibre Regular';
-    src: url('/fonts/calibre/calibre-test-regular.woff') format('woff');
-}
-
-/***************************************************************
-These styles are subject to the following license agreement(s):
-
-https://store.typenetwork.com/cart/eula/font-bureau
-https://store.typenetwork.com/cart/eula/font-bureau
-https://store.typenetwork.com/cart/eula/font-bureau
-https://store.typenetwork.com/cart/eula/font-bureau
-https://store.typenetwork.com/cart/eula/font-bureau
-https://store.typenetwork.com/cart/eula/font-bureau
-***************************************************************/
-
-.titlinggothicfbnormalstandard {
-    font-family: "Titling Gothic FB Nrm Standard";
-    font-display: swap;
-    font-style: normal;
-    font-weight: normal;
-}
-
-.titlinggothicfbnormalmedium {
-    font-family: "Titling Gothic FB Nrm Med";
-    font-display: swap;
-    font-style: normal;
-    font-weight: normal;
-}
-
-.titlinggothicfbskylinelight {
-    font-family: "Titling Gothic FB Skyline Lt";
-    font-display: swap;
-    font-style: normal;
-    font-weight: normal;
-}
-
-.titlinggothicfbskylineregular {
-    font-family: "Titling Gothic FB Skyline Reg";
-    font-display: swap;
-    font-style: normal;
-    font-weight: normal;
-}
-
-.titlinggothicfbskylinethin {
-    font-family: "Titling Gothic FB Skyline Thi";
-    font-display: swap;
-    font-style: normal;
-    font-weight: normal;
-}
-
-.titlinggothicfbnormalbold {
-    font-family: "Titling Gothic FB Nrm Bd";
-    font-display: swap;
-    font-style: normal;
-    font-weight: normal;
+    src: url('fonts/calibre/calibre-test-regular.woff') format('woff');
 }
 
 html {
     box-sizing: border-box;
-    font-family: 'Calibre Regular', sans-serif;
+    font-family: 'Calibre Semibold', sans-serif;
 }
 
 body {
@@ -328,7 +276,7 @@ a.edge-type:after,
 a:before,
 a.edge-type:after {
     width: 60px;
-    top: calc(1em / 2);
+    top: calc((1em / 2) + 3px);
 }
 
 a:before {

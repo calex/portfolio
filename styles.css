@@ -85,7 +85,7 @@ https://store.typenetwork.com/cart/eula/font-bureau
 
 html {
     box-sizing: border-box;
-    font-family: 'Calibre Semibold', sans-serif;
+    font-family: 'Calibre Regular', sans-serif;
 }
 
 body {
@@ -328,7 +328,7 @@ a.edge-type:after,
 a:before,
 a.edge-type:after {
     width: 60px;
-    top: calc((1em / 2) + 3px);
+    top: calc(1em / 2);
 }
 
 a:before {

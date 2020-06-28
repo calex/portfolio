@@ -26,7 +26,7 @@
 }
 
 @font-face {
-    font-family: 'Calibre';
+    font-family: 'Calibre Regular';
     src: url('/fonts/calibre/calibre-test-regular.woff') format('woff');
 }
 
@@ -85,7 +85,7 @@ https://store.typenetwork.com/cart/eula/font-bureau
 
 html {
     box-sizing: border-box;
-    font-family: 'Calibre', sans-serif;
+    font-family: 'Calibre Regular', sans-serif;
 }
 
 body {
